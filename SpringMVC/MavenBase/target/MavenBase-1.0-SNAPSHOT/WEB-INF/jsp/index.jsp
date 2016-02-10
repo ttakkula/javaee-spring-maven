@@ -15,6 +15,7 @@
         <title>Start Page</title>
     </head>
     <body>
-        <h1 class="my_color">Hello World!</h1>
+        <h1 class="my_color">Hello <span style="color:#499167">${name}</span>!</h1>
+        <p><a href="/MavenBase/second">To second page</a></p>
     </body>
 </html>
