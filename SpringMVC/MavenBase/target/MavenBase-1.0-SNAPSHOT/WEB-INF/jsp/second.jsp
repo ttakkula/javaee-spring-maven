@@ -51,7 +51,7 @@
                 <h1 class="panel-title">Add new teacher information</h1>
             </div>
             <div class="panel-body">
-            <form:form action="/teacher" method="POST" modelAttribute="teacher" class="form form-horizontal">
+                <form:form action="/teacher" method="POST" modelAttribute="teacher" class="form form-horizontal" acceptCharset="UTF-8">
                 <div class="form-group">
                     <form:label path="" class="control-label col-sm-2">Name</form:label>
                     <div class="col-sm-10">
