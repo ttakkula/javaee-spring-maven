@@ -1,5 +1,12 @@
 body {
-       background-color: oldlace;
+    padding-top: 80px;   
+    background-color: whitesmoke;
+}
+
+.panel {
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 3px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 3px 9px 0px rgba(50, 50, 50, 0.75);
 }
 
 .my_color{
