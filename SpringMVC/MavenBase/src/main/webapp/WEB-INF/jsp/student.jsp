@@ -15,12 +15,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Students page</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../resources/css/styles.css" />    
+        <link rel="stylesheet" type="text/css" href="../resources/css/styles.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
         
     <%@include file="header.jsp" %>
     <div class="container">
+        <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-lg-4 col-lg-offset-0">
+    
         <div class="row">
             <div class="col-md-8 col-md-offset-2 col-lg-12 col-lg-offset-0">
 
@@ -64,13 +68,15 @@
             <div class="panel-footer">
                 <p>${save_info}</p>
             </div>
+            <!-- end of panel below -->
             </div>    
             <!-- end of col below -->
             </div>
-            
+        </div>
+        </div>    
         <div class="col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-0">
         <table class="table table-striped">
-            <caption>Students
+            <caption><i class="fa fa-lg fa-group"></i> Students</caption>
             <thead>
                 <tr>
                     <th>Name</th>
